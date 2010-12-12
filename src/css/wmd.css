@@ -144,7 +144,9 @@ textarea.wmd-fieldinput
 	height: 22px;
 	background: #FFF url(wmd-toolbar.png) no-repeat;
 	border: solid 1px #DCDCDC;
+  padding: 0;
 	margin-right: 5px;
+	margin-left: 0;
 	-moz-border-radius-bottomleft: 2px;
 	-moz-border-radius-bottomright: 2px;
 	-moz-border-radius-topleft: 2px;
