@@ -46,6 +46,9 @@ WMD = function(input, toolbar, options) {
 	if (!options.showdown && typeof Attacklab !== "undefined" && Attacklab.showdown && Attacklab.showdown.converter) {
 		options.showdown = new Attacklab.showdown.converter().makeHtml;
 	}
+    else if (!options.showdown && typeof Showdown !== "undefined" && Showdown.converter) {
+		options.showdown = new Showdown.converter().makeHtml;
+    }
 	
 	/*
 	 * Private members.
